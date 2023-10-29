@@ -1,0 +1,55 @@
+@mixin Button {
+    width: 188px;
+    height: 58px;
+    border-radius: 10px;
+    border: 1px solid var(--color-blue);
+    color: var(--color-black);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+@mixin haderbtn{
+    width: 161px;
+    height: 52px;
+    color: var(--color-white);
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 6px;
+    background: var(--color-blue);
+    line-height: normal;
+    padding: 16px 21px;
+    cursor: pointer;
+}
+
+@mixin boxbtn{
+    width: 102px;
+    height: 52px;
+    border-radius: 10px;
+    background: var(--color-blue);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 18px;
+    transform: translateX(-120px);
+}
+
+@mixin footerbtn{
+    margin-left: 30px;
+    width: 131px;
+    height: 52px;
+    border-radius: 10px;
+    background: var(--color-white);
+    border: none;
+    color: var(--color-blue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}

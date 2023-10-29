@@ -1,0 +1,45 @@
+.box .container{
+    text-align: center;
+}
+
+.box__input{
+    width: 487px;
+    height: 82px;
+    border-radius: 10px;
+    border: 1px solid var(--color-blue);
+    opacity: 0.2;
+    color: var(--color-black);
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 100px;
+}
+
+.box__img{
+    position: absolute;
+    margin-left: 15px;
+    transform: translateY(27px);
+}
+
+.box__btn{
+    @include boxbtn;
+}
+
+.box__heading{
+    color: var(--color-blue);
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+}
+
+.box__text{
+    color: var(--color-black);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
